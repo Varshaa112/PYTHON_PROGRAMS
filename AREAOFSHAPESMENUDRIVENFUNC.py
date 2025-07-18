@@ -7,8 +7,8 @@ def circle():
     print("Area of circle is:", areaofcircle)
 
 def square(a):
-    side=int(input("Enter side of square"))
-    areaofsquare=side*side
+
+    areaofsquare=a*a
     print("Area of square", areaofsquare)
 
 def triangle():
@@ -27,7 +27,8 @@ while(True):
             case 1:
                 circle()
             case 2:
-                square()
+                a=int(input("Enter side of square"))
+                square(a)
             case 3:
                 res=triangle()
                 print("Area of triangle",res)
