@@ -20,12 +20,6 @@ def find(task,time):
 
     print(f"Total runs taken {run_count}" )
 
-
-
-
-
-
-
 task=[10,5,8]
 time=4
 find(task,time)
